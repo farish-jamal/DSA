@@ -30,6 +30,6 @@ int main(){
     update(ptr2);
 
     cout << endl << " After : " << i << " " << ptr << " " << ptr2 << endl;
-    
+             
     return 0;
 }
