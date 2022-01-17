@@ -50,10 +50,10 @@ int main(){
 
     // How we should make variable size of array ?
     
+    
+   // Dynamic memory allocation to 1d arrays.
     int a;
-    cout << "Enter a number : " << endl;
     cin >> a;
-
     int *arr = new int[a];
 
     for(int i = 0; i<a; i++){
@@ -63,6 +63,8 @@ int main(){
     int ans = getSum(arr, a);
 
     cout << "Answer is : " << ans << endl;
+
+    delete []arr;
     
     return 0;
 }
